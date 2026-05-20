@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SomaDoisNumeros {
+public class Soma {
     public static void main(String[] args) {
         // Criamos o scanner para ler o teclado
         Scanner scanner = new Scanner(System.in);
