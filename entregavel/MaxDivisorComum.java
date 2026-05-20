@@ -3,7 +3,7 @@ public class MaxDivisorComum {
         int a = 48;
         int b = 18;
         
-        System.out.println("O MDC de " + a + " e " + b + " é: " + calcularMDC(a, b));
+        System.out.println("O MDC de " + a + " e " + b + " é: " + calcularMaxDivisorComum(a, b));
     }
 
     // Método que calcula o MDC de forma recursiva
@@ -11,6 +11,6 @@ public class MaxDivisorComum {
         if (b == 0) {
             return a;
         }
-        return calcularMDC(b, a % b);
+        return calcularMaxDivisorComum (b, a % b);
     }
 }
