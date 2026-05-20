@@ -1,4 +1,4 @@
-public class OrdenacaoBubbleSort {
+public class Ordenacao {
     public static void main(String[] args) {
         // Nosso vetor desordenado
         int[] vetor = {5, 2, 9, 1, 5, 6};
